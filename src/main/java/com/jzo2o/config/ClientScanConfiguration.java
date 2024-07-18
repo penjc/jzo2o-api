@@ -21,6 +21,4 @@ public class ClientScanConfiguration {
     public FeignInterceptor feignInterceptor(UserInfoHandler userInfoHandler, RequestIdHandler requestIdHandler){
         return new FeignInterceptor(userInfoHandler, requestIdHandler);
     }
-
-
 }
